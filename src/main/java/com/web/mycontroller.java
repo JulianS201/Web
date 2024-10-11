@@ -15,4 +15,5 @@ public class mycontroller {
     public String getPagina3() {
         return "pagina3";
     }
+    
 }
