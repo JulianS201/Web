@@ -1,0 +1,102 @@
+body{
+    background-color: #F2ECE9;
+    font-family: sans-serif;
+}
+
+h1{
+    background-color: blue;
+    color: white;
+    text-align: center;
+} 
+header{
+    position: fixed;
+    background-color: #737272;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;           
+}
+
+aside{
+    position: fixed;
+    background-color: #6666ff;
+    top: 92px;
+    left: 0;
+    width: 100%;
+    bottom: 20px;
+    padding: 10px;
+}
+footer{
+    position: fixed;
+    background-color: black;
+    color: white;
+    text-align: center;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    height: 30px;
+}
+
+section{
+    position: fixed;
+    background-color: #F2ECE9;
+    top: 80px;
+    left: 0%;
+    width: 100%;
+    bottom: 20px;
+    padding: 10px;
+    overflow-y: scroll;
+}
+ 
+ 
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+ 
+.logo{
+    font-size: 42px;
+    font-weight: bold;
+    font-family: cursive;
+    padding: 0 90px;
+    line-height: 50px;
+}
+ 
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+ 
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 92px;
+}
+ 
+.nav-menu-link {
+    background-color: #9900ff;
+    padding: 10px;
+    border-radius: 10px;
+}
+.nav-menu-link:hover {
+    background-color: black;
+}
+
+.custom-toolbar {
+    margin-top: 15px; /* Espacio superior */
+    display: flex; /* Usa flexbox para la alineación */
+    justify-content: flex-end; /* Alinea los botones a la derecha */
+    align-items: flex-start; /* Alinea los botones en la parte superior */
+    gap: 10px; /* Espacio entre los grupos de botones */
+}
+
+.image-container {
+    text-align: center; /* Centra el contenido en línea (como imágenes y texto) */
+    margin-top: 20px; /* Opcional: añade un margen superior */
+}

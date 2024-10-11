@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="head">
+  
+  <title>TRAP ARGENTINO</title>
+ 
+  <meta charset="UTF-8">
+
+  
+  <!-- Aquí incluyes tus estilos y scripts -->
+  <link th:href="@{/webjars/bootstrap/css/bootstrap.min.css}" rel="stylesheet" />
+  <link th:href="@{/webjars/font-awesome/css/all.css}" rel="stylesheet" />
+   <link href="css/estilos.css" rel="stylesheet" type="text/css" />
+  <script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+  <script th:src="@{/webjars/popper.js/umd/popper.min.js}"></script>
+  <script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>   
+</head>
+    <body>
+
+  <header>
+      <a class="nav-link logo" >TRAP ARGENTINO</a>
+  
+  <section>
+    
+    <p>
+        
+    En Argentina, el sonido se hizo popular primeramente por el rapero y compositor Duki,
+    quien grabó su primera canción «No Vendo Trap» en 2016, sin embargo, artistas argentinos 
+    como YSY A, Cazzu, KHEA, Neo Pistea y Blunted Vato, habían comenzado a grabar con sonidos del género unos años antes en 2014.
+    
+        </p>
+      
+     <div class="image-container">
+    <img src="https://22minutoscon.com/wp-content/uploads/2022/10/img_1213.jpg" height="200" alt=""/>
+</div> 
+
+      <p>
+        
+    La industria musical de Argentina se remonta hasta hace más de cinco años. Todo empezó en las plazas de Buenos Aires y otras ciudades del país, donde se celebraran competiciones de freestyle y surgieron los primeros artistas que han sido un pilar fundamental para el desarrollo de la escena
+    
+        </p>
+      
+    </section>
+
+  </header>
+ 
+  
+  <footer th:fragment="footer" class="p-2 mt-5 bg-info text-white text-center fixed-bottom">
+ &COPY; Trap Arg Ofi 
+  </footer>
+</body>
+</html>
